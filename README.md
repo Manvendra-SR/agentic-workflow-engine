@@ -135,11 +135,6 @@ This project goes beyond basic LLM usage and demonstrates:
 - Debuggable, inspectable agent behavior
 - Production-oriented UI separation
 
-It is suitable for:
-- AI Engineer Internships
-- ML Platform Roles
-- GenAI / Agentic Systems Research
-
 ---
 
 ## Known Limitations
