@@ -96,8 +96,7 @@ pip install chainlit
 ### 3. Set environment variables
 ```bash
 export GOOGLE_API_KEY=your_key_here
-# optional
-export MISTRAL_API_KEY=your_key_here
+export TAVILY_API_KEY=your_key_here
 ```
 
 ---
