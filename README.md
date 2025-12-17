@@ -37,7 +37,7 @@ Final Answer (User-facing)
 
 ## Tech Stack
 
-- **Python 3.10+**
+- **Python 3.11+**
 - **LangGraph**
 - **LangChain**
 - **Gemini (Google Generative AI)**
@@ -69,7 +69,6 @@ project/
 ├── src/
 │   ├── helper.py          # LLM, tools, and node definitions
 │   ├── prompt.py          # Prompt templates
-│   ├── graphs.py          # Graph factory functions (recommended)
 │   └── __init__.py
 │
 ├── setup.py
@@ -83,14 +82,13 @@ project/
 
 ### 1. Create and activate virtual environment
 ```bash
-conda create -n agentic python=3.10
+conda create -n agentic python=3.11
 conda activate agentic
 ```
 
 ### 2. Install dependencies
 ```bash
-pip install -e .
-pip install chainlit
+pip install -r requirements.txt
 ```
 
 ### 3. Set environment variables
@@ -109,7 +107,7 @@ chainlit run app.py -w
 
 Open in browser:
 ```
-http://localhost:8000
+http://localhost:8080
 ```
 
 ---
