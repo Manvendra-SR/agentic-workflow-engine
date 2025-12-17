@@ -1,0 +1,12 @@
+langgraph
+langchain
+langchain-community
+langchain-core
+langchain-text-splitters
+python-dotenv
+langchain-tavily
+langchain_experimental
+langchain-mistralai
+langchain-google-genai
+google-generativeai
+-e .
